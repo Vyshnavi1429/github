@@ -1,0 +1,25 @@
+import java.util.*;
+class Palin
+{
+static boolean ispalin(String str)
+{
+if(str.length()<=1)
+{
+return true;
+}
+char fl=str.charAt(0);
+char ll=str.charAt(str.length()-1);
+if(fl!=ll)
+{
+return false;
+}
+String remainstr=str.substring(1,str.length()-1);
+return ispalin(remainstr);
+}
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+String v=s.next();
+System.out.println(ispalin(v));
+}
+}
