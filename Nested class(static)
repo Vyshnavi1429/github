@@ -1,0 +1,28 @@
+import java.util.*;
+class Nested
+{
+ static int x=10;
+private void add()
+{
+System.out.println("hello addition");
+}
+static class Inner
+{
+void dis()
+
+{
+System.out.println("x value is"+x);
+Nested g=new Nested();
+g.add();
+}
+}
+}
+class Main
+{
+public static void main(String args[])
+{
+Nested.Inner v=new Nested.Inner();
+
+v.dis();
+}
+}
