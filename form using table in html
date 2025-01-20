@@ -1,0 +1,58 @@
+<html>
+    <title>htlm form usimg table</title>
+    ><body>
+        <form>
+            <table border="1" width="50%" height="600px" align="center">
+                <tr align="center">
+                    <th colspan="2"><font size="10"></font>sign up form</th>
+                </tr>
+                <tr>
+                    <th><label>NAME</label></th>
+                    <th><input type="text"></th>
+                </tr>
+                <tr>
+                    <th><label>Password</label></th>
+                    <th><input type="password"</th>
+                </tr>
+                <tr>
+                    <th><label>Age</label></th>
+                    <th><input type="number"</th>
+                </tr>
+                <tr>
+                    <th><label>Date Of Birth</label></th>
+                    <th><input type="date"</th>
+                </tr>
+                <tr>
+                    <th><label>Gender</label></th>
+                    <th><input type="radio" name="gender">female
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Other
+                    </th>
+                </tr> 
+                <tr>
+                    <th><label>Hobbies</label></th>
+                    <th><input type="checkbox" name="Hobbies">games
+                    <input type="checkbox" name="Hobbies">Reading
+                    <input type="checkbox" name="Hobbies">travelling
+                    </th>
+                </tr> 
+                <tr>
+                    <th><label>Country</label></th>
+                    <th>
+                        <select name="city">
+                            <option value="India">India</option>
+                            <option value="South Africa">South Africa</option>
+                            <option value="America">America</option>
+                            <option value="Japan">Japan</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th><label>About your self</label></th>
+                    <th><textarea name="about"> write about your self...</textarea></th>
+                </tr>
+                <tr align="center">
+                    <th colspan="2"><input type="submit">
+                    <input type="reset"</th>
+                </tr>                            
+    </body>
